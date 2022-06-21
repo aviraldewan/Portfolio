@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <title>Portfolio | Aviral Dewan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Nav Bar Start -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark border">
+        <button aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-target="#navbar" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a style="color: white;
+    font-size: 25px;
+    font-weight: bold;" class="nav-link" href="#">Aviral Dewan</a>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto mt-2">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skill">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pro">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Nav Bar End -->
+
+    <!-- Intro Start -->
+    <div id="bg">
+        <div class="home-container">
+            <img src="myimg.jpeg">
+            <div class="home-text">
+                <p>Hello Everybody, I'm</p>
+                <h1><span style="font-size: 50px; font-family: Roboto;">Aviral Dewan</span></h1>
+                <h5>
+                    <bold>
+                        COMPETETIVE PROGRAMMER | FULL STACK DEV
+                    </bold>
+                </h5><br>
+                <p>I love problem solving and working hard
+                    to turn my ideas into reality.<br> Also, I like
+                    pushing myself and taking up new challenges.
+                    I'm rated 5 Star on HackerRank.
+                </p>
+                <br>
+                &#128231<a class="info" href="mailto:curiosity.avidew@gmail.com">
+                    curiosity.avidew@gmail.com
+                </a><br><br>
+                &#127968;<a class="info" href="https://goo.gl/maps/CTPsTzaBa6wcz4pX7">
+                    Delhi Public School, Jammu
+                </a>
+                <div class="social">
+                    <a href="https://github.com/aviraldewan"><img src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"></a>
+                    <a href="https://www.linkedin.com/in/aviral-dewan-2a0022228/"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAllBMVEUMZMX///8AYcQAWcFDf8nL3PIAWrzQ3vMAYcI0eclZjtAucslAgsz6/v3x9/sgbclOhM8AX8QAYsAAX70AV70AWMLm7vgAXb4sdsw5fsoRbsVmltK6z+iUt+AMZcGDrN3c6fNvnddiltWqwuPA0+r0+vyOrt+lweR9pduuyueUst9Lh81pldd1mtYdbcunxOXO4u7Z4fGRyVlRAAAEKUlEQVR4nO3ce1faMBzG8SblEpSCiUUuQrkMhsCc+v7f3Ko4KjW/yLY0WXOez9mf4Ml3vSW1NYoAAAAAAAAAAAAAAAAAAAAAAAAAAADgYiriIsqU72FURcapGnXHk5aMue+xVCCT6n56x960Z2OpMt8jsozz+Xve0Xqc+h6SXbKzYOeSfex7UBap+J591lThHI3awPxw5KGcVFUj0RayaRrI6UaUj8GTpfA9NivknApkvTC2YdwjC9lc+h6dBWpFB7JFCIXx1FDIRr6HZ0Fq2EkZewjgXNMnLhVH34a+x/fPeMdYOK3/gchvTIFsXf/ZKR+bC+u/DcW1cS/d1f84jFobU+H3ANYXadNU2PU9PAvkd0Ngz/forMgMhU/1P5Xm4h0ZmHQCOAzz68WEPNdsg9iE+ZH4QATeBTApPYqf9PvoKIh99E2qOxQ3jVvf47JHDT5fMl5GAQW+3tNvnF/4N3shwrhJc8Ljw/Q0Q13MJ4GcRc8IORjP99vZfpWlQe2gH3EZx7Gs/4IJAADqQ3DJX/+FM38vqHyKlA5Hhx+Pj49X43468P34CheEiz9Z+pTMlrvFaQ6YbNrblRpKf6vNbHRNKX2yT/kwSVd5XluzGGs//Ew9NfIGS/RYs3X2yUGzp7dpnMYu+zPql1mbp46f+XxeSCkVxrpt8+bmWJgJOTPeYP7m5QkWi4Wye0d94t3m3sNmtFao5OyLvle7zPnRaKlQCb6+IDBfXvddJ1oq5BH5WE7JXd/xwWilUKnJpYGM9a7dPk5mpfCWP18cmO+okdOtaKVwYHxm5ZP1wOWNPBuFneUfBTK2dHkzyEbhwfirco3NxOF+aqPw8rPMbzuHV34bhX+h4e6q6KnQ4ZM6ngrZyNlG9FXo7hfMvgp7zt7o8FXIDq52U2+FznbTKgovmgAsalq4mB0mQqjJYfvler98o6sWhevuYPh2C5jz4WD1ReMPR4soi4W91dmtXy7MK469o7mpvcLn8nRaSWPi9PzH/++FCXvW3LuXpoXxi6MllK1tqHtGLBMd0zccLYNtFR60W8T0wkqv7yTQVuGTfpfLuvRXkms3sxo7hQlx/yy7NayOO3Uq3MXExY148PFY6OZyYafwihqsXNJfGteoMCGXQoYfzxo1KmxSO2kkJvTLcXUq3BreraFnp3UqNLwT3aJPpnUqPNBjTV+CKDScFVv0t+pUaLiytegXq1BoCQoLKNRDYfVQWEChHgqrh8ICCvVQWD0UFlCoh8LqobCAQj0UVg+FBRTqobB6KCygUA+F1UNhAYV6KKweCgso1ENh9VBYQKEeCquHwkKAhe1SIf2UoaFwSP+/dB29FtTvUsbnH+Q3VxTDmxOq+zffskqJiOtFpZda+OV/M6uQKepLof0NWAAAAAAAAAAAAAAAAAAAAAAAAAAAgAr8Aj5RWY0PDbn2AAAAAElFTkSuQmCC"></a>
+                    <a href="https://www.quora.com/profile/Aviral-Dewan"><img src="https://play-lh.googleusercontent.com/EAVZzDs5jPuXJaR-zNoD3rzYYUu9VcdXciQYq1w2-n55QQeN3yo_krmM__rMjk4GR5FX"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Intro End -->
+
+    <hr>
+
+    <!-- About ME Start -->
+
+    <div class="about-container">
+        <h1 id="about" style="padding: 20px;">About Myself</h1>
+        <p>I'm in my sophomore year in Delhi Public School, Jammu.
+            I am always ready to have new experiences, meet<br> new people and learn new things.
+            I find the idea of creating value for people
+            and impacting the world through my work gratifying.</p>
+        <p>I am curious to learn about different concepts
+            and things which make our life better
+            and enable us to do more.
+        </p>
+    </div>
+
+    <!-- About Me End -->
+
+    <!-- Skill Section Start -->
+    <div class="skill-section">
+        <h1 id="skill" style="color: white;text-align: center; margin-bottom: 60px;">My Skills</h1>
+        <div class="skills">
+            <img src="cpp.png" alt="programming language logo">
+            <img src="python.png" alt="programming language logo">
+            <img src="js.png" alt="programming language logo">
+            <img src="sql.png" alt="programming language logo">
+            <img src="html.png" alt="programming language logo">
+            <img src="css.png" alt="programming language logo">
+        </div>
+        <div class="hr">
+            <img src="hr.png" alt="HackerRank Certificate">
+        </div>
+    </div>
+
+    <!-- Skill Section End -->
+
+
+    <!-- Project Section Start -->
+
+    <h1 id="pro" style="text-align: center; margin-top:60px; margin-bottom: 40px;">My Projects</h1>
+    <div class="project">
+        <div class="card">
+            <img src="https://blog.ipleaders.in/wp-content/uploads/2020/02/Shares-TaxScan.jpg"
+                alt="Cash logo">
+            <br>
+            <div class="container">
+                <h4><b>CS50 Finance</b></h4>
+                <h5>Technologies- Python(Flask), SQL</h5>
+                <p>Users can virtually buy/sell shares, view
+                    current prices of the shares. Users can buy/sell
+                    the shares after logging in from their registered account.
+                </p>
+                <a href="https://github.com/aviraldewan/CS50-pset9">Show Code</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Old_version_of_the_Wikipedia_logo_used_until_2010_%28big%2C_English%29.png"
+             alt="Wikipedia logo">
+             <br>
+            <div class="container">
+                <h4><b>WikiPedia Clone</b></h4>
+                <h5>Technologies- Python(Django)</h5>
+                <p>This project is a replica of WikiPedia.
+                    Users can create a new entry, edit any page and search
+                    for any article by typing in search box or URL.
+                </p>
+                <a href="https://github.com/aviraldewan/CS50W-Wiki">Show Code</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://govalleykids.com/wp-content/uploads/2020/04/Birthdays.jpg"
+                alt="Birthdays logo">
+            <br>
+            <div class="container">
+                <h4><b>Birthdays</b></h4>
+                <h5>Technologies- Python(Flask), SQL</h5>
+                <p>Users can add the birthdays of their family
+                    members and friends. Birthdays are updated in
+                    the database.
+                </p>
+                <a href="https://github.com/aviraldewan/CS50-Birthdays">Show Code</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="Google logo">
+            <br>
+            <div class="container">
+                <h4><b>Google Clone</b></h4>
+                <h5>Technologies- HTML, CSS</h5>
+                <p>This project is a Google front-end clone where
+                    users can search for a query, users can also use
+                    image and advanced search.
+                </p>
+                <a href="https://github.com/aviraldewan/CS50W-Google">Show Code</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://blog.hubspot.com/hubfs/google-quiz.jpg"
+                alt="Quiz Game logo">
+            <br>
+            <div class="container">
+                <h4><b>Quiz Game</b></h4>
+                <h5>Technologies- JavaScript, HTML, CSS</h5>
+                <p>This project is a quiz game where users have
+                    to select the correct option for the given
+                    question and the selected option will turn
+                    green if its correct or red otherwise.
+                </p>
+                <a href="https://github.com/aviraldewan/Quiz-Game">Show Code</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Section End -->
+
+    <!-- Contact Form Start -->
+    <div id="contact" class="message">
+        <h1 style="padding-top: 15px; padding-bottom: 50px;">Contact</h1>
+        <form action="https://formsubmit.co/curiosity.avidew@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_subject" value="New email from portfolio">
+            <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input class="input-field" type="text" name="name" placeholder="Name" required>
+            </div>
+            <div class="input-container">
+                <i class="fa fa-envelope icon"></i>
+                <input class="input-field" type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-container">
+                <i class="fa fa-envelope icon"></i>
+                <input class="input-field" type="text" name="message" placeholder="Write your message here" required>
+            </div>
+            <button id="submit" type="submit">Send</button>
+        </form>
+    </div>
+    <!-- Contact Form End -->
+
+</body>
+
+</html>
